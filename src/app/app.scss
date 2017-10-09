@@ -14,3 +14,11 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+.toggle-ios {
+  display: block; // for ios theme or mode
+}
+
+.toggle-md {
+  display: block; // just in case if you use md in ios device
+}
