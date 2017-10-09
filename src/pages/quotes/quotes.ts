@@ -45,7 +45,6 @@ export class QuotesPage implements OnInit {
                     role: 'cancel',
                     handler: () => {
                         console.log('Cancel');
-                        this.quotesService.removeQuoteFromFavorites(selectedQuote);
                     }
                 }
             ]
